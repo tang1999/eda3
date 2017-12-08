@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>超级简单计算器</title>
+    <script src="计算机.js"></script>
+    <link rel="stylesheet" href="" type="text/css">
+</head>
+<body>
+<input type="text" name="text" id="pre" onblur="isnum(this.value);">
+<select  id="operator">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+</select>
+<input type="text" name="text" id="next" onblur="isnum(this.value);">
+
+<span>=</span>
+
+<input type="text" id="result" readonly="readonly">  <!--只读-->
+
+<input type="button" id="btn" value="提交" onclick="calculator();">
+
+</body>
+</html>
