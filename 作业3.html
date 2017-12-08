@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EDA第三次作业</title>
+    <link type="text/css" href="表单.css" rel="stylesheet">
+</head>
+<body>
+
+    <h1>周哥婚姻介绍所</h1>
+<div class="one">
+<form>
+    <label for="username" >姓名</label>
+    <input  type="text"  id="username" size="10" maxlength="5" value="周哥">
+<br/><br/>
+    <label for="password">密码</label>
+    <input id="password" type="password">
+<br/>
+    <input type="submit" value="提交"> <input type="reset" value="重置">
+</form>
+</div>
+
+
+    <div class="one" style=" background-color:bisque">
+    <form>
+<label>性别</label><br/>
+    <label for="male">男</label>
+    <input   type="radio"  value="male" name="sex" id="male" >
+    <label for="female">女</label>
+    <input  type="radio"  value="female" name="sex" id="female">
+<br/>
+    </form>
+    </div>
+
+    <div class="one">
+        <form>
+<label>爱情状况</label><br/>
+     <input  type="checkbox" >有家室<br/>
+     <input  type="checkbox" >gay<br/>
+     <input  type="checkbox" >单身<br/>
+        </form>
+    </div>
+
+          <div class="one" style="background-color: bisque">
+          <form>
+    <label for="work">职业：</label>
+    <br/>
+    <select id="work" >
+        <option>教师</option>
+        <option>学生</option>
+        <option selected="selected">司机</option>
+        <option>商人</option>
+        <option>医生</option>
+        <option>其他</option>
+    </select>
+          </form>
+          </div>
+
+    <div class="one">
+        <form>
+    <textarea maxlength="500" >详细说明</textarea>
+</form>
+</div>
+
+    <div class="one" style="background-color: bisque">
+        <form>
+            <input type="file">
+        </form>
+    </div>
+</body>
+</html>
