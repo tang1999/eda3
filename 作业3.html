@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>EDA第三次作业</title>
     <link type="text/css" href="表单.css" rel="stylesheet">
+    <script src="作业3.js"></script>
 </head>
 <body>
 
@@ -11,12 +12,13 @@
 <div class="one">
 <form>
     <label for="username" >姓名</label>
-    <input  type="text"  id="username" size="10" maxlength="5" value="周哥">
+    <input  type="text"  id="username" size="10" maxlength="5" value="周哥" >
 <br/><br/>
     <label for="password">密码</label>
     <input id="password" type="password">
 <br/>
-    <input type="submit" value="提交"> <input type="reset" value="重置">
+    <button type="submit" value="提交" style="height: 20px" onclick="name('username');">提交</button>
+    <button type="reset" value="重置" style="height: 20px">重置</button>
 </form>
 </div>
 

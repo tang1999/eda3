@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="homewaork4.js"></script>
+    <link href="homework4.css" type="text/css" rel="stylesheet">
+    <title>学生信息管理</title>
+</head>
+<body>
+<table>
+    <tbody>
+    <tr style="font-size: larger">
+        <th>姓名</th>
+        <th>班级</th>
+        <th>语文成绩</th>
+        <th>数学成绩</th>
+        <th>理综成绩</th>
+        <th>总成绩</th>
+    </tr>
+    <tr id="stu1">
+        <td><label><input type="text" maxlength="5" id="name1" ></label></td>
+        <td><label><input type="text" maxlength="5" ></label></td>
+        <td><label><input type="number"  id="语文1"></label></td>
+        <td><label><input type="number"  id="数学1"></label></td>
+        <td><label><input type="number"  id="理综1"></label></td>
+        <td><label><input type="text"  readonly="readonly" id="总1"></label></td>
+    </tr>
+    <tr id="stu2">
+        <td><label><input type="text" maxlength="5" id="name2" ></label></td>
+        <td><label><input type="text" maxlength="5" ></label></td>
+        <td><label><input type="number"  id="语文2"></label></td>
+        <td><label><input type="number"  id="数学2"></label></td>
+        <td><label><input type="number"  id="理综2"></label></td>
+        <td><label><input type="text"  readonly="readonly" id="总2"></label></td>
+    </tr>
+    <tr id="stu3">
+        <td><label><input type="text" maxlength="5" id="name3"></label></td>
+        <td><label><input type="text" maxlength="5" ></label></td>
+        <td><label><input type="number"  id="语文3"></label></td>
+        <td><label><input type="number"  id="数学3"></label></td>
+        <td><label><input type="number"  id="理综3"></label></td>
+        <td><label><input type="text"  readonly="readonly" id="总3"></label></td>
+    </tr>
+    <tr id="stu4">
+        <td><label><input type="text" maxlength="5" id="name4"></label></td>
+        <td><label><input type="text" maxlength="5" ></label></td>
+        <td><label><input type="number"  id="语文4"></label></td>
+        <td><label><input type="number"  id="数学4"></label></td>
+        <td><label><input type="number"  id="理综4"></label></td>
+        <td><label><input type="text"  readonly="readonly" id="总4"></label></td>
+    </tr>
+    <tr id="stu5">
+        <td><label><input type="text" maxlength="5" id="name5"></label></td>
+        <td><label><input type="text" maxlength="5" ></label></td>
+        <td><label><input type="number"  id="语文5"></label></td>
+        <td><label><input type="number"  id="数学5"></label></td>
+        <td><label><input type="number"  id="理综5"></label></td>
+        <td><label><input type="text"  readonly="readonly" id="总5"></label></td>
+    </tr>
+
+</table>
+<input type="submit" value="提交" id="button1" onclick="total()">
+<input type="submit" value="激动人心的排名" id="button2" onclick="rank()">
+</body>
+</html>

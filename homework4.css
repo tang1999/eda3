@@ -1,0 +1,30 @@
+table {
+    margin:  100px  auto;
+    border-collapse: collapse;
+}
+table tr td,th{
+    border: 1.8px black solid;
+}
+body{
+    background-color: paleturquoise;
+}
+input{
+    height: 25px;
+}
+
+#button1 {
+    position:absolute;
+    top:320px;
+    right: 428px;
+    height:30px;
+    border-radius: 3px;
+    text-align: center;
+}
+#button2 {
+    position:absolute;
+    top:320px;
+    right: 315px;
+    height:30px;
+    border-radius: 4px;
+    text-align: center;
+}
